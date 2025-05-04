@@ -1,0 +1,23 @@
+{
+  "name": "civil-with-karthik",
+  "version": "1.0.0",
+  "description": "Civil engineering education platform",
+  "main": "auth-server.js",
+  "scripts": {
+    "start": "node auth-server.js",
+    "dev": "nodemon auth-server.js",
+    "build": "echo 'Build completed'"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "google-auth-library": "^8.7.0",
+    "mongoose": "^7.0.3",
+    "nodemailer": "^6.9.1",
+    "otplib": "^12.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
